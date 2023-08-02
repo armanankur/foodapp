@@ -1,0 +1,87 @@
+.container{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    height: 10vh;
+    width: 100%;
+    display:  flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #81D4FA;
+}
+
+.left{
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap:1rem;
+
+} 
+.one{
+ height: 40px;
+ width: 40px;
+ border-radius: 18px;
+ background-color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.two{
+    height: 40px;
+    width: 200px;
+    border-radius: 18px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .three{
+    height: 40px;
+    width: 80px;
+    border-radius: 18px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .mid{
+    margin-left: 10rem;
+    display: flex;
+    justify-content: space-between;
+    gap:1rem;
+   }
+
+
+   .right{
+    margin-left: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap:1rem;
+   }
+.main{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.upper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.lower{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

@@ -1,0 +1,47 @@
+.container{
+    height: 10vh;
+    width: 100vw;
+    background-color: #1A237E;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.leftContainer{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin-left: 2rem;
+}
+.logo {
+height: 60px;
+width: 60px;
+
+}
+.logo img{
+    height:100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.name{
+    margin-left: 1rem;
+    color: aliceblue;
+}
+.rightContainer{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-left: 60rem;
+}
+.userImg span{
+    font-size: 2rem;
+    color: antiquewhite;
+   cursor: pointer;
+}
+.downArrow{
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: aliceblue;
+    cursor: pointer;
+}
